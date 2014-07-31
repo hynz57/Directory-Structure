@@ -1,5 +1,11 @@
 body{text-align: center;background-color: aqua}
 
+h1 {color:blue;font-size:300%; text-align: center;text-shadow: 8px 8px 8px red; margin-top: 50px;margin-bottom: 75px}
+
+/*--------------------------------------------------------------------------*/
+
+/*Logo to Home code begin */
+
 .homer{color:blue;text-shadow: 10px 6px 3px red
    ;font-size: 250%;font-weight: lighter; position: fixed;
   top: 5px;
@@ -14,22 +20,31 @@ body{text-align: center;background-color: aqua}
   /* ...and now override with proper CSS property */
   transition:color .2s ease-out, background 1s ease-in;background:white;
 }
+
+/*Logo to home code end */
+
+/*--------------------------------------------------------------------------*/
+
+/*Link decoration code begin */
+
 a:hover { color:red; background:aqua;
   -o-transition:color .2s ease-out, background .5s ease-in;
   -ms-transition:color .2s ease-out, background .5s ease-in;
   -moz-transition:color .2s ease-out, background .5s ease-in;
   -webkit-transition:color .2s ease-out, background .5s ease-in;
   /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background .5s ease-in; }
+  transition:color .2s ease-out, background .5s ease-in;}
     
 a:visited{color:navy
     ;}
 
-button{text-align: center;}
-
-h1 {color:blue;font-size:300%; text-align: center;text-shadow: 8px 8px 8px red; margin-top: 50px;margin-bottom: 75px}
-
 a:link {text-decoration: none;}
+
+/*Logo to Home code end */
+
+/*--------------------------------------------------------------------------*/
+
+/*Home page link code begin */
 
 .fps
 {font-size: 150%;margin:auto;
@@ -37,98 +52,11 @@ a:link {text-decoration: none;}
     height: 28px;
     background: red;
     -webkit-transition: width 1s; 
-    transition: width 1s;
-}
+    transition: width 1s;}
 
 .fps:hover {
     width: 300px;
 }
-
-.releases
-{font-size: 150%;margin:auto;
-    width: 150px;
-    height: 28px;
-    background: red;
-    -webkit-transition: width 1s;
-}
-
-.releases:hover {
-    width: 300px;
-}
-
-.reviews
-{font-size: 150%;margin:auto;
-    width: 150px;
-    height: 28px;
-    background: red;
-    -webkit-transition: width 1s; 
-    transition: width 1s;
-}
-
-.reviews:hover {
-    width: 300px;
-}
-
-
-
-
-.releases
-{font-size: 150%;margin:auto; 
-    width: 150px;
-    height: 28px;
-    background: red;
-    -webkit-transition: width 1s; 
-    transition: width 1s;
-}
-
-.releases:hover {
-    width: 300px;
-}
-
-
-
-.fpstohome
-{font-size: 150%;margin:auto; 
-    width: 150px;
-    height: 28px;
-    background: red;
-    -webkit-transition: width 1s; 
-    transition: width 1s;
-}
-
-.fpstohome:hover {
-    width: 300px;
-}
-
-.fpsheader1 {font-size: 140%; font-family:  arial; }
-
-
-
-
-
-
-.fpsreleasestoreviews {font-size: 150%;
-    width: 200px;
-    height: 10px;
-    background: red;
-    -webkit-transition: width 1s;
-
-text-align: center ; float: right; 
-    margin-top: 1px;
-    margin-bottom: 10px;
-    margin-right: 400px;
-    margin-left: 15px;
-    padding-top: 1px;
-    padding-bottom: 50px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-
-.fpsreleasestoreviews:hover {
-    width: 300px;
-}
-.fpsreleasestext {font-size: 150%; font-weight: lighter;}
 
 .multiplayer
 {font-size: 150%;margin:auto;
@@ -139,7 +67,7 @@ text-align: center ; float: right;
     transition: width 1s;margin-top: 35px;margin-bottom: 35px;
 }
 
- .multiplayer:hover {
+.multiplayer:hover {
     width: 300px;
 }
 
@@ -152,7 +80,7 @@ text-align: center ; float: right;
     transition: width 1s;
 }
 
- .RPG:hover {
+.RPG:hover {
     width: 300px;
 }
 
@@ -167,6 +95,84 @@ text-align: center ; float: right;
  .News:hover {
     width: 300px; 
 }
+
+/*Home page link code end */
+
+/*-----------------------------------------------------------------------------*/
+
+/*FPS page ink code begin*/
+
+
+
+
+.fpsreleases
+{font-size: 150%;margin:auto;
+    width: 150px;
+    height: 28px;
+    background: red;
+    -webkit-transition: width 1s;
+}
+
+.fpsreleases:hover {
+    width: 300px;
+}
+
+.fpsreviews
+{font-size: 150%;margin:auto;
+    width: 150px;
+    height: 28px;
+    background: red;
+    -webkit-transition: width 1s; 
+    transition: width 1s;
+}
+
+.fpsreviews:hover {
+    width: 300px;
+}
+
+.home
+{font-size: 150%;margin:auto; 
+    width: 150px;
+    height: 28px;
+    background: red;
+    -webkit-transition: width 1s; 
+    transition: width 1s;
+}
+
+.home:hover {
+    width: 300px;
+}
+
+.fpsheader1 {font-size: 140%; font-family:  arial; }
+
+.fpsreleasestoreviews {font-size: 150%;margin:auto; 
+    width: 150px;
+    height: 28px;
+    background: red;
+    -webkit-transition: width 1s; 
+    transition: width 1s;}
+   
+
+.fpsreleasestoreviews:hover {
+    width: 300px;
+}
+
+.battlefield {font-size: 150%;margin:auto; 
+    width: 150px;
+    height: 28px;
+    background: red;
+    -webkit-transition: width 1s; 
+    transition: width 1s;}
+   
+
+.battlefield:hover {
+    width: 300px;
+}
+
+
+.fpsreleasestext {font-size: 150%; font-weight: lighter;}
+
+
 
 .newstext {font-size: 150%; font-weight: lighter;}
 
